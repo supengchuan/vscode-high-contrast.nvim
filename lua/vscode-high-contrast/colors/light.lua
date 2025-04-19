@@ -1,6 +1,6 @@
----@class Palette
-local ret = {
-  bg = "#000000",
+---@type Palette
+return {
+  bg = "#222436",
   bg_dark = "#1e2030",
   bg_dark1 = "#191B29",
   bg_highlight = "#2f334d",
@@ -12,7 +12,7 @@ local ret = {
   blue6 = "#b4f9f8",
   blue7 = "#394b70",
   comment = "#636da6",
-  cyan = "#569CD6",
+  cyan = "#86e1fc",
   dark3 = "#545c7e",
   dark5 = "#737aa2",
   fg = "#c8d3f5",
@@ -36,4 +36,3 @@ local ret = {
     delete = "#e26a75",
   },
 }
-return ret

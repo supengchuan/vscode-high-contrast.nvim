@@ -1,7 +1,7 @@
 local config = require("vscode-high-contrast.config")
 local M = {}
 
----@param opts? vscode-hihg-contrast.Config
+---@param opts? vscode-high-contrast.Config
 function M.load(opts)
   opts = require("vscode-high-contrast.config").extend(opts)
   local bg = vim.o.background
